@@ -1,4 +1,9 @@
-# 16-color terminal colorscheme: the theory!
+# Ambidexterous 16-color terminal colorscheme
+
+16-color light/dark colorscheme for Vim(/&lightline) that works with a
+particular theory of color palettes.
+
+## The theory!
 
 This color relies on the following theory/assumptions about a palette:
 
@@ -29,6 +34,15 @@ This color relies on the following theory/assumptions about a palette:
     c) The high-contrast row need not match the standard row, but it should
        maintain the 'higher contrast' property to work as a colorscheme.
 
+## The so!
+
 This allows for easy light/dark theme switching, but requires the light theme to
 conform to points 2b and 3b: flip the color rows, and rearrange the grayscales.
 Pick a good color palette (polar CIELUV!), and things will look good.
+
+## The how!
+
+```{vim}
+colorscheme ambi16
+let g:lightlight.colorscheme = 'ambi16'
+```

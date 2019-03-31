@@ -44,5 +44,5 @@ let s:p.tabline.right = [ [ s:base1, s:base0 ] ]
 let s:p.normal.error = [ [ s:base2, s:red ] ]
 let s:p.normal.warning = [ [ s:base2, s:yellow ] ]
 
-let g:lightline#colorscheme#ansi16#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#ambi16#palette = lightline#colorscheme#flatten(s:p)
 

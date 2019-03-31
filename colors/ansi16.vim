@@ -4,7 +4,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "ansi16"
+let colors_name = "ambi16"
 
 " In diffs, added lines are green, changed lines are yellow, deleted lines are
 " red, and changed text (within a changed line) is bright yellow and bold.
